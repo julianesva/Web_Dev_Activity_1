@@ -1,0 +1,43 @@
+body {
+    background-image: url('web_devop_img/computer_engineer-compare-page.webp'); 
+    background-size: cover; 
+    background-position: center center; 
+    background-attachment: fixed;
+}
+
+.text-container_1{
+    background-color: green;
+    text-shadow: 2px 2px beige;
+}
+
+.text-container_2 {
+    border: 4px solid crimson;
+    margin: 80px;
+    padding: 55px;
+    background-image: url('web_devop_img/chicha.jpg');
+    background-size: cover; 
+    background-position: center center; 
+    color: #fff; 
+    padding: 20px; 
+    margin: 20px;
+}
+
+.text-container_3{
+    background-color: blue;
+    border: 4px solid crimson;
+    margin: 30px;
+    padding: 30px;
+    text-shadow: 2px 2px beige; 
+}
+
+li{
+    text-shadow: 2px 2px beige;
+}
+
+form{
+    border: 4px solid white;
+    background-color:gainsboro;
+    margin: 90px;
+    padding: 25px;
+    padding-bottom: 60px;
+}
