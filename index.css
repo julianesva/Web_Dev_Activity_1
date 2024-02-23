@@ -3,6 +3,10 @@ body {
     background-size: cover; 
     background-position: center center; 
     background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    /*max-width: 1500px;*/
+    width: 60%; /* Set a width for the container */
+    margin: 0 auto;
 }
 
 .text-container_1{
@@ -12,21 +16,18 @@ body {
 
 .text-container_2 {
     border: 4px solid crimson;
-    margin: 80px;
     padding: 55px;
     background-image: url('web_devop_img/chicha.jpg');
     background-size: cover; 
     background-position: center center; 
     color: #fff; 
     padding: 20px; 
-    margin: 20px;
 }
 
 .text-container_3{
+    margin-bottom: 40px;
     background-color: blue;
     border: 4px solid crimson;
-    margin: 30px;
-    padding: 30px;
     text-shadow: 2px 2px beige; 
 }
 
@@ -37,7 +38,16 @@ li{
 form{
     border: 4px solid white;
     background-color:gainsboro;
-    margin: 90px;
     padding: 25px;
-    padding-bottom: 60px;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+}
+
+.text-container_4{
+    border: 4px solid white;
+    background-color:gainsboro;
+    padding: 15px;
+    padding-bottom: 25px;
+    text-align: center;
+    margin-bottom: 40px;
 }
