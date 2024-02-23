@@ -65,7 +65,7 @@ function generate_response(title, excerpt) {
 const endpoint_ai="https://api.openai.com/v1/chat/completions";
 const opciones = {
   method: 'POST',
-  headers: { 'Content-Type': 'application/json','Authorization': 'Bearer ' },
+  headers: { 'Content-Type': 'application/json','Authorization': 'Bearer API KEY' },
   body: JSON.stringify({ model: 'gpt-3.5-turbo', messages: [{"role": "user", "content": "Give me more information about this song with this tittle:"+title+" and this additional information:"+excerpt}] })
 };
 
